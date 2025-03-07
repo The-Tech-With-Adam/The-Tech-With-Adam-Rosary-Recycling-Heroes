@@ -4,7 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rosary Recycling Heroes</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* General Styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            scroll-behavior: smooth;
+        }
+
+        /* Header & Navigation */
+        header {
+            background-color: #2ecc71;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        header nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        header nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Content Sections */
+        section {
+            padding: 40px;
+            margin: 20px 0;
+        }
+
+        h1, h2 {
+            color: #27ae60;
+        }
+
+        /* Video Section */
+        iframe {
+            width: 100%;
+            height: 500px;
+            border: none;
+        }
+
+        /* Image Section */
+        img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            background-color: #2ecc71;
+            padding: 10px;
+            color: white;
+        }
+    </style>
 </head>
 <body>
 
@@ -12,33 +81,52 @@
     <header>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="team.html">Meet Our Team</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="videos.html">Videos</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#team">Meet Our Team</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#videos">Videos</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Main Content -->
-    <main>
+    <!-- Home Section -->
+    <section id="home">
         <h1>Welcome to Rosary Recycling Heroes!</h1>
         <p>Join us in promoting sustainability and recycling in our community.</p>
+    </section>
 
-        <!-- Video Embed -->
-        <section>
-            <h2>Watch Our Campaign Video</h2>
-            <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
-        </section>
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a group of passionate individuals working to spread awareness about the importance of recycling and sustainability.</p>
+    </section>
 
-        <!-- Images -->
-        <section>
-            <h2>Our Mission in Pictures</h2>
-            <img src="images/recycling1.jpg" alt="Recycling Image 1">
-            <img src="images/recycling2.jpg" alt="Recycling Image 2">
-        </section>
-    </main>
+    <!-- Team Section -->
+    <section id="team">
+        <h2>Meet Our Team</h2>
+        <p>Our team is dedicated to making a positive impact on the environment through education and action.</p>
+        <ul>
+            <li>Adam Issa - Eco Commander (Site Owner/Designer)</li>
+            <li>Ahmed Abdelall Samhan - Green Guardian</li>
+            <li>Rayan Abolteif - Recycle Ranger</li>
+            <li>Adam Abouelhassan - Sustainability Scout</li>
+            <!-- Add other team members here -->
+        </ul>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <h2>Our Mission in Pictures</h2>
+        <img src="images/recycling1.jpg" alt="Recycling Image 1">
+        <img src="images/recycling2.jpg" alt="Recycling Image 2">
+    </section>
+
+    <!-- Video Section -->
+    <section id="videos">
+        <h2>Watch Our Campaign Video</h2>
+        <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+    </section>
 
     <!-- Footer -->
     <footer>
